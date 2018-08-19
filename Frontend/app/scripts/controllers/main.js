@@ -16,7 +16,9 @@ angular.module('flickrFrontEndApp')
     main.allItems = []; // All Items
     main.displayedItems = []; // only the items that are visible
     main.query = '';
-    main.url = 'http://localhost:3000/flickrFeed';
+    
+    // Would need to be moved to environment config, when  deployed to Server
+    main.url = 'http://localhost:3000/flickrFeed'; 
 
     function init() {
       // On start up request the Feed from the Backend
