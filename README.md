@@ -24,9 +24,9 @@ Run `grunt` for building and `grunt serve` for preview.
 Running `npm test` will run the unit tests with karma.
 
 
-#Back End
+# Back End
 
-##Install & Start Server
+## Install & Start Server
 To start the server simply execute `npm install` and then run it with `node index.js`
 
 Unit Testing is done with tape. The tests can be started using `npm test`
